@@ -1,0 +1,324 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: hsl(227, 90%, 99%);
+  font-family: Helvetica;
+}
+.TopBox{
+  width:100%;
+  background-color: #4B5281;
+  color:#FFFFFF;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.navButtons{
+  display: none;
+}
+
+.NavAndName h3{
+  text-align: left;
+  font-size: 30px;
+  padding-bottom:40px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.accentPeriod{
+  color:#FF9F1C;
+}
+
+.picture_of_avatar{
+  width:100%;
+  margin-bottom: 20px;
+}
+
+.typingText{
+  font-size: 25px;
+  font-family: monospace;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ContactMeBUtton{
+  background-color: #FF9F1C;
+  color:#FFFFFF;
+  padding:15px;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 25px;
+  margin-bottom: 60px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.wrapper{
+  width:100%;
+}
+
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin:auto;
+}
+
+.column2 {
+  float: left;
+  width: 33.3%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin:auto;
+}
+
+.SectionTitle{
+  color: #4B5281;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.projectGallaryBox{
+  width:90%;
+  margin:auto;
+  height: 150px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.projectGallaryBoxCovid{
+  width:90%;
+  margin:auto;
+  height: 150px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-image: url("img/covid19appBack.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projectGallaryBoxLittleAdNet{
+  width:90%;
+  margin:auto;
+  height: 150px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-image: url("img/littleadventures.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projectGallaryBoxPoke{
+  width:90%;
+  margin:auto;
+  height: 150px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-image: url("img/pokemonPopularity.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.thumbnails{
+  width:95%;
+  margin:auto;
+}
+.tumbHoverCover{
+  border-radius: 15px;
+  background-color: #4B5281;
+  height: 100%;
+  width: 100%;
+  opacity: 0%;
+}
+
+.projectTitle {
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  color:#FFFFFF;
+}
+
+.tumbHoverCover h5{
+  color: #FF9F1C;
+  font-size: 19px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.tumbHoverCover:hover{
+  animation: 1s thumbnailTitleCover;
+  animation-fill-mode: forwards;
+}
+
+.SkillsGallaryBoxDR{
+  width:90%;
+  margin:auto;
+  height: 100px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background-image: url("img/racket-logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.SkillsGallaryBox{
+  width:90%;
+  margin:auto;
+  height: 100px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+
+}
+
+
+.SkillsGallaryBoxNet{
+  width:90%;
+  margin:auto;
+  height: 100px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background-image: url("img/netlogologo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.SkillsGallaryBoxPy{
+  width:90%;
+  margin:auto;
+  height: 100px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background-image: url("img/Python.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.SkillsGallaryBoxHtml{
+  width:90%;
+  margin:auto;
+  height: 100px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background-image: url("img/html_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.SkillsGallaryBoxCSS{
+  width:90%;
+  margin:auto;
+  height: 100px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background-image: url("img/CSS_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.SkillsGallaryBoxMITAPP{
+  width:90%;
+  margin:auto;
+  height: 100px;
+  background-color: #FFFFFF;
+  box-shadow:  5px 5px 16px #ced5db,
+             -5px -5px 16px #ffffff;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background-image: url("img/MITlogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tumbHoverCoverSkills{
+  border-radius: 15px;
+  background-color: #FF9F1C;
+  height: 100%;
+  width: 100%;
+  opacity: 0%;
+}
+
+.tumbHoverCoverSkills:hover{
+  animation: 1s thumbnailTitleCover;
+  animation-fill-mode: forwards;
+}
+@keyframes thumbnailTitleCover {
+  0%{
+    opacity: 0%;
+  }
+  10%{
+    opacity: 10%;
+  }
+  20%{
+    opacity: 20%;
+  }
+  30%{
+    opacity: 30%;
+  }
+  40%{
+    opacity: 40%;
+  }
+  50%{
+    opacity: 50%;
+  }
+  100%{
+    opacity: 85%;
+  }
+}
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1000px) {}
